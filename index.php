@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.as"></script>
+
+    
 </head>
 <body>
 
@@ -38,9 +39,9 @@ echo "<p>3</p>";
 $asterisco = "";
 for ($i = 0; $i < 7; $i++) {
     for ($a = $i; $a <= $i; $a++) {
-        $asterisco .= "*\n";
+        echo $asterisco.="*";
     }
-    echo "$asterisco<br>";
+   echo"<br>";
 }
 
 
