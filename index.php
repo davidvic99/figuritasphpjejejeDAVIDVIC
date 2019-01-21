@@ -38,9 +38,9 @@ echo "<p>3</p>";
 
 $asterisco = "";
 for ($i = 0; $i < 7; $i++) {
-    for ($a = $i; $a <= $i; $a++) {
+   
         echo $asterisco.="*";
-    }
+    
    echo"<br>";
 }
 
